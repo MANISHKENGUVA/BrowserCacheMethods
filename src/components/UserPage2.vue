@@ -20,7 +20,7 @@
   const channel = new BroadcastChannel('user-search-channel')
   
   export default {
-    name: 'UserPage',
+    name: 'UserPage2',
   
     data() {
       return {
