@@ -3,13 +3,13 @@ import UserPage from './components/UserPage.vue'
 
 const routes = [
   {
-    path: '/user/:username',
+    path: '/user',
     name: 'UserPage',
     component: UserPage
   },
   {
     path: '/:catchAll(.*)',
-    redirect: '/user/manish'  // default redirect
+    redirect: '/user'  // fallback
   }
 ]
 
